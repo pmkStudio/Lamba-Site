@@ -13,8 +13,8 @@ const swiper = new Swiper(".swiper", {
 		768: {
 			slidesPerView: 2,
 			spaceBetween: 20,
-		}
-	}
+		},
+	},
 });
 let map;
 
@@ -163,5 +163,3 @@ const openMenu = () => {
 };
 
 menuBtn.addEventListener("click", openMenu);
-
-

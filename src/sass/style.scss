@@ -91,7 +91,6 @@ img {
 	}
 }
 
-
 // Стилизуем наполнение первой секции Промо
 .main__section {
 	margin-bottom: 100px;
@@ -556,12 +555,12 @@ img {
 	justify-content: start;
 }
 
-@media (max-width:1490px) {
+@media (max-width: 1490px) {
 	.promo {
 		background-position: left center;
 	}
 }
-@media (max-width:1100px) {
+@media (max-width: 1100px) {
 	.main-nav__list {
 		display: none;
 	}
@@ -585,7 +584,7 @@ img {
 		&__when {
 			font-size: 28px;
 		}
-	}	
+	}
 }
 @media (max-width: 840px) {
 	// Адаптация второй секции
@@ -596,7 +595,6 @@ img {
 		margin-bottom: 20px;
 	}
 	.info-box {
-
 		&__row {
 			display: block;
 		}
@@ -634,20 +632,20 @@ img {
 	.menu-mobile {
 		position: absolute;
 		left: 0;
-		right:0;
+		right: 0;
 		top: -100vh;
 		transition: top 1s ease;
 	}
 	.menu-mobile.active {
 		display: flex;
 		flex-direction: column;
-		top:0;
+		top: 0;
 		background-color: #040404;
 		height: 100vh;
 		text-align: center;
 		justify-content: center;
 	}
-	.main-nav__item{
+	.main-nav__item {
 		margin-bottom: 20px;
 	}
 	.main-nav__link {
@@ -685,7 +683,7 @@ img {
 		&__inner::before {
 			display: none;
 		}
-		&__video-link img{
+		&__video-link img {
 			margin: 0 auto;
 			width: 40px;
 		}
@@ -697,7 +695,7 @@ img {
 	// Адаптируем блог
 	.blog {
 		&__quote {
-		 flex-direction: column;
+			flex-direction: column;
 		}
 		&__box {
 			flex-basis: auto;
@@ -722,8 +720,7 @@ img {
 		}
 	}
 }
-@media (max-width:560px) {
-
+@media (max-width: 560px) {
 	.promo {
 		&__title {
 			text-align: center;
@@ -738,13 +735,13 @@ img {
 	}
 
 	// footer
-	.footer{
+	.footer {
 		&__bottom {
-		display: block;
-		text-align: center;
+			display: block;
+			text-align: center;
+		}
+		&__logo {
+			display: block;
+		}
 	}
-	&__logo {
-		display: block;
-	}
-}
 }
